@@ -2,6 +2,7 @@
 
 import useSWR from 'swr'
 import CardComponent from "../_components/CardComponent";
+import { MealsResponse } from '../_models/meals';
 
 const fetcher = (url: string) => fetch(url).then(res => res.json())
 
