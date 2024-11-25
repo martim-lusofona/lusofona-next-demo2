@@ -1,8 +1,8 @@
-interface MealsResponse {
+export interface MealsResponse {
     meals: Meal[]
 }
 
-interface Meal {
+export interface Meal {
     strMeal: string
     strMealThumb: string
 }
